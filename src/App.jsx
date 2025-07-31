@@ -17,17 +17,17 @@ function App() {
         <h2 className="section-title">Servicios</h2>
         <div className="grid-cards">
           <div className="card">
-            <img src="/public/anuncios.jpeg" alt="Diseño gráfico" className="card-icon" />
+            <img src="/anuncios.jpeg" alt="Diseño gráfico" className="card-icon" />
             <h3>Diseño Gráfico</h3>
             <p>Branding, identidad visual, diseño editorial y contenido digital.</p>
           </div>
           <div className="card">
-            <img src="/public/anunciopublicidad.jpeg"alt="Impresión" className="card-icon" />
+            <img src="/anunciopublicidad.jpeg" alt="Impresión" className="card-icon" />
             <h3>Impresión</h3>
             <p>Lonas, viniles, etiquetas, promocionales y más.</p>
           </div>
           <div className="card">
-            <img src="/public/anunciopublicidad.jpeg" alt="Rotulación" className="card-icon" />
+            <img src="/anunciopublicidad.jpeg" alt="Rotulación" className="card-icon" />
             <h3>Rotulación</h3>
             <p>Vehicular, fachadas, señalética y estructuras metálicas.</p>
           </div>
@@ -44,9 +44,9 @@ function App() {
       <section className="section dark-bg">
         <h2 className="section-title">Portafolio</h2>
         <div className="grid-gallery">
-          <img className="gallery-item" src="/public/anunciopublicidad.jpeg" alt="Ejemplo 2" />
-          <img className="gallery-item" src="/public/logos.jpeg" alt="Ejemplo 1" />
-          <img className="gallery-item" src="/public/labb.jpeg" alt="Ejemplo 3" />
+          <img className="gallery-item" src="/anunciopublicidad.jpeg" alt="Ejemplo 2" />
+          <img className="gallery-item" src="/logos.jpeg" alt="Ejemplo 1" />
+          <img className="gallery-item" src="/labb.jpeg" alt="Ejemplo 3" />
         </div>
       </section>
 
