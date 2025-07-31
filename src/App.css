@@ -7,9 +7,9 @@ body {
 
 .hero {
   position: relative;
-  background-image: url('/public/lab.jpeg');
+  background-image: url('/public/ws1.jpeg');
   background-size: cover;
-  background-position: center;
+  background-position: center 92%; /* <-- Bajamos un poco la imagen */
   height: 50vh;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ body {
 
 .hero h1 {
   font-size: 7rem;
-  color: #ff3c3c;
+  color: #febf00;
   margin-bottom:10px;
   line-height: 0.7;
 }
@@ -43,10 +43,11 @@ body {
   font-size: 1.25rem;
   color: #ffffff;
   margin-bottom: 30px;
+  font-size: x-large;
 }
 
 .btn-primary {
-  background: #ff3c3c;
+  background: #febf00;
   color: white;
   padding: 12px 28px;
   border: none;
@@ -55,6 +56,8 @@ body {
   cursor: pointer;
   transition: background 0.3s ease;
   text-decoration: none;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 .btn-primary:hover {
@@ -103,13 +106,11 @@ body {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 .card-icon {
-  width: 90%;
+  width: 100%;
   height: 200px;
-  object-fit: contain;
-  margin-bottom: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 .grid-gallery {
   display: grid;
@@ -182,4 +183,84 @@ body {
 
 .floating-whatsapp:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+    background-position: center 70%;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .section {
+    padding: 40px 15px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .card-icon {
+    height: 160px;
+  }
+
+  .form input,
+  .form textarea {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .floating-whatsapp {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    bottom: 16px;
+    right: 16px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 3.8rem;
+  }
+
+  .subtitle {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .card-icon {
+    height: 140px;
+  }
+
+  .btn-primary {
+    font-size: 1.85rem;
+    padding: 8px 16px;
+    background: #ffbf00;
+
+  }
+
+  .form input,
+  .form textarea {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    padding: 20px;
+  }
 }

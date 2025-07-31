@@ -17,7 +17,7 @@ function App() {
         <h2 className="section-title">Servicios</h2>
         <div className="grid-cards">
           <div className="card">
-            <img src="/public/anunciopublicidad.jpeg" alt="Diseño gráfico" className="card-icon" />
+            <img src="/public/anuncios.jpeg" alt="Diseño gráfico" className="card-icon" />
             <h3>Diseño Gráfico</h3>
             <p>Branding, identidad visual, diseño editorial y contenido digital.</p>
           </div>
